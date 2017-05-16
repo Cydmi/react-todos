@@ -1,0 +1,72 @@
+#app{
+	width: 100%;
+	text-align: center;
+}
+.todos-wrap{
+	width: 600px;
+	margin: 0 auto;
+	margin-top:100px;
+}
+.todos-wrap > input{
+	height: 40px;
+	width:100%;
+	padding-left: 5px;
+	border:1px solid #ebebeb;
+
+}
+.todos-wrap ul{
+	text-align: left;
+}
+.todos-wrap ul li{
+	position: relative;
+	height: 40px;
+	line-height: 40px;
+	margin-top: -1px;
+	border:1px solid #ebebeb;
+	border-top:none;
+}
+.checked-li{
+    color: #d9d9d9;
+    text-decoration: line-through;
+}
+.check{
+	width: 25px;
+	display: inline;
+}
+.del{
+	position: absolute;
+	line-height: 32px;
+	font-size: 16px;
+	top: 1px;
+	right: 2px;
+	background: #fff;
+    -webkit-appearance: none;
+    appearance:none;
+	border: none;
+}
+.del:after{
+	content: 'x'
+}
+.footer{
+	text-align: left;
+	height: 40px;
+	line-height: 40px;
+	margin-top: -1px;
+	border:1px solid #ebebeb;
+	border-top:none;
+	
+}
+.allDeleteBtn{
+	line-height: 32px;
+	font-size: 16px;
+	top: 1px;
+	right: 2px;
+	background: #fff;
+    -webkit-appearance: none;
+    appearance:none;
+	border: none;
+}
+.all-checked{
+	width: 25px;
+	display: inline;
+}
